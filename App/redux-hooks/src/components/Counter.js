@@ -15,21 +15,19 @@ const Counter = () => {
 
     return(
         <div className='counter-container'>
-            <div className='container'>
-                <div onClick={handleIncrement} className='increment'>
-                    <h1>
-                        Increment
-                    </h1>
-                </div>
-                <div className='counter'>
-                    <h1>Counter: { counter }</h1>
-                </div>
-                <div onClick={handleDecrement} className='decrement'>
-                    <h1>
-                        Decrement
-                    </h1>
-                </div>   
-            </div>  
+            <div onClick={handleIncrement} className='increment'>
+                <h1>
+                    Increment
+                </h1>
+            </div>
+            <div className='counter'>
+                <h1>{ counter }</h1>
+            </div>
+            <div onClick={handleDecrement} className='decrement'>
+                <h1>
+                    Decrement
+                </h1>
+            </div>    
         </div>    
     )
 }
