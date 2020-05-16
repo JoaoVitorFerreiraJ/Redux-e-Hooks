@@ -27,7 +27,7 @@ const Counter = () => {
                 <h1>
                     Decrement
                 </h1>
-            </div>    
+            </div>     
         </div>    
     )
 }
